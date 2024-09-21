@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin-left: 20px;
+
+}
+.parent{
+    background-color: rgb(66, 66, 216);
+    color: white;
+    width: 100%;
+}
+.navbar{
+    margin-left: 37px;
+    font-size: 1.6rem;
+
+}
+.head1{
+    font-size: 40px;
+    width: 300px;
+}
+.btn1{
+    padding: 4px 25px;
+    border-radius: 50px;
+    background-color: rgb(159, 159, 234);
+    color: white;
+    border: none;
+    margin-top: 30px;
+    font-size: 1.6rem;
+}
+.btn2{
+    padding: 4px 25px;
+    border-radius: 50px;
+    background-color: rgb(66, 66, 216);
+    color: white;
+    border: 2px solid white;
+    margin-top: 30px;
+    font-size: 1.6rem;
+}
+.child2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.tbl2{
+    border: 2px solid white;
+    font-size: 3rem;
+}
+.kid4{
+    width: 300px;
+}
+.head3{
+    font-weight: bolder;
+    font-size: 1.65rem;
+}
+.para4{
+    margin-top: 10px;
+}
+.btn3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 4px 25px;
+    font-size: 1.6rem;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(159, 159, 234);
+    border: none;
+}
+.child4{
+    margin-top: 80px;
+}
+.para5{
+    margin-bottom: 15px;
+}
+.head4{
+    font-size: 1.65rem;
+    width: 300px;
+}
+.para6{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 300px;
+}
+.btn4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 4px 25px;
+    font-size: 1.6rem;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(159, 159, 234);
+    border: none;
+}
+.child5{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.head5{
+    margin-top: 30px;
+    
+}
+.para1{
+    width: 300px;
+}
+.child1{
+    display: flex;
+}
+.child2{
+    display: flex;
+}
+.child3{
+    display: flex;
+}
+.child4{
+    display: flex;
+}
+.child6{
+    display: flex;
+}
+.img1{
+    width: 200px;
+    height: 200px;
+}
+.img2{
+    width: 200px;
+    height: 200px;
+}
+.img3{
+    width: 200px;
+    height: 200px;
+}
+.lion{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+.lion2{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin-left: -20px;
+}
+.lion3{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin-left: -20px;
+
+}
+.profile1{
+    text-align: center;
+    font-size: .65rem;
+}
+.profile2{
+    text-align: center;
+    font-size: .65rem;
+}
+.profile3{
+    text-align: center;
+    font-size: .65rem;
+}
+.name1{
+    margin-top: 50px;
+    font-size: 1.3rem;
+}
+.name2{
+    margin-top: 50px;
+    margin-left: 0px;
+    font-size: 1.3rem;
+}
+.name3{
+    margin-top: 50px;
+    margin-left: 0px;
+
+    font-size: 1.3rem;
+
+}
+.profile2{
+    text-align: center;
+}
+.profile3{
+    text-align: center;
+}
+.border1{
+    border: 2px solid blue;
+    width: 180px;
+    height: 140px;
+    margin-top: -40px;
+    background-color: blue;
+    border-radius: 10px;
+}
+.border2{
+    border: 2px solid blue;
+    width: 180px;
+    height: 140px;
+    margin-top: -40px;
+    margin-left: -20px;
+    background-color: blue;
+    border-radius: 10px;
+}
+.border3{
+    border: 2px solid blue;
+    width: 180px;
+    height: 140px;
+    margin-top: -40px;
+    margin-left: -20px;
+    background-color: blue;
+    border-radius: 10px;
+}
+.intro1{
+    margin-left: 0px;
+    margin-top: 5px;
+}
+.intro2{
+    margin-left: 0px;
+    margin-top: 5px;
+
+}
+.intro3{
+    margin-left: 0px;
+    margin-top: 5px;
+
+}
+.child7{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 160px;
+text-align: center;
+border: 2px solid white;
+width: 500px;
+background-color: blue;
+padding: 50px;
+border-radius: 10px;
+border: none;
+}
+.para8{
+    margin-top: -30px;
+
+}
+.head6{
+    font-size: 2rem;
+}
+.btn5{
+    margin-top: 40px;
+    padding: 5px 22px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
