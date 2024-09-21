@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+.parent{
+    width: 700px;
+    height: 530px;
+    background-color: rgb(100, 201, 172);
+}
+.div1{
+    display: flex;
+}
+.left{
+    width: 400px;
+    height: 500px;
+    padding-left: 25px;
+    background-color: rgb(100, 201, 172);
+}
+.right{
+    width: 400px;
+    height: 500px;
+}
+.navbar{
+    width: 700px;
+}
+img{
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 30px;
+    height: 400px;
+    width: 300px;
+}
+.head{
+    margin-top: 200px;
+    font-size: 3rem;
+    color: white;
+}
+.head>span{
+    color: aqua;
+}
+.drop{
+    border: none;
+    color: rgb(242, 239, 239);
+    background-color: rgb(100, 201, 172);
+}
+.leon{
+    margin-left: 15px;
+}
+.button1{
+border: 1px solid white;
+border-radius: 50px;
+padding: 2px 12px;
+background-color: rgb(100, 201, 172);
+}
+.button2{
+    padding: 5px 25px;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 40px;
+    background-color: white;
+    color: rgb(100, 201, 172);
+}
+.button3{
+    padding: 5px 25px;
+    border-radius: 15px;
+    margin-top: 50px;
+    background-color: white;
+    color: rgb(100, 201, 172);
+}
+.bi-apple{
+    color: rgb(100, 201, 172);
+    background-color: rgb(100, 201, 172);
+}
