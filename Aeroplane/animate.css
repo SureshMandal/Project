@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+div{
+    position: relative;
+}
+
+#plane{
+    position: absolute;
+    
+    width: 200px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 350px;
+    animation: plane 3s ease-out 1s infinite alternate forwards;
+}
+#road{
+    width: 100vh;
+    
+}
+@keyframes plane{
+    0%{
+        transform: translateX(-300px);
+    }80%{
+        transform: rotate(30deg) translateX(-1100px) translateY(-1px);
+    }
+}
