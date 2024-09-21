@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.parent{
+    display: flex;
+}
+.div1{
+    width: 300px;
+    height: 400px;
+    border: 2px solid;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 30px;
+}
+.title{
+    margin-top: 20px;
+    opacity: 70%;
+}
+.marks{
+    font-size: 50px;
+    border: 2px;
+    border-radius: 50px;
+    margin-left: 90px;
+    margin-top: 50px;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(3, 3, 156);
+}
+.marks>span{
+    font-size: 20px;
+}
+.greet{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.div2{
+    width: 300px;
+    height: 400px;
+    border: 2px solid;
+    border: none;
+}
+.summ{
+    margin-left: -130px;
+    margin-top: 20px;
+}
+.child1{
+    margin: 10px;
+    margin-left: 60px;
+    font-size: 30px;
+    color: red;
+    width: 230px;
+    padding: 5px;
+    background-color: rgb(246, 229, 229);
+    border-radius: 15px;
+}
+.child2{
+    margin: 10px;
+    margin-left: 60px;
+    font-size: 30px;
+    width: 230px;
+    padding: 5px;
+    color: rgba(150, 6, 246, 0.879);
+    background-color: rgb(224, 206, 241);
+    border-radius: 15px;
+
+}
+.child3{
+    margin: 10px;
+    margin-left: 60px;
+    font-size: 30px;
+    width: 230px;
+    padding: 5px;
+    color: green;
+    background-color: rgb(213, 241, 213);
+    border-radius: 15px;
+
+}
+.child4{
+    margin: 10px;
+    margin-left: 60px;
+    font-size: 30px;
+    width: 230px;
+    padding: 5px;
+    color: blue;
+    background-color: rgb(208, 208, 234);
+    border-radius: 15px;
+
+}
+.button{
+    font-size: 26px;
+    padding:12px 25px;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-color: rgb(41, 50, 77);
+    color: aliceblue;
+}
