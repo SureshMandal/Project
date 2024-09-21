@@ -1,0 +1,41 @@
+.parent{
+    width:250px;
+    border:2px solid blue;
+    padding:1.5rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-left: 250px;
+    margin-top: 100px;
+    background-color: aqua;
+}
+img{
+    width: 100%;
+    border-radius: 15px;
+}
+.text{
+    text-align: center;
+}
+.change{
+    margin-left: 100px;
+    margin-top: 3px;
+    margin-bottom: 8px;
+    border: none;
+    background-color: rgb(245, 234, 247);
+}
+.plan{
+    background-color: rgb(245, 234, 247);
+    border-radius: 10px;
+}
+.pay{
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    width: 250px;
+}
+.cancel{
+    margin-left: 80px;
+    margin-top: 10px;
+    border: none;
+    background-color: white;
+}
