@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+body{
+    border: 2px solid blue;
+    height: 400px;
+    border-radius: 10px;
+
+}
+.parent{
+    display: flex;
+    background-color: rgb(13, 13, 234);
+    padding: 15px;
+
+}
+.child1{
+    border: 2px solid blue;
+    padding: 20px;
+    margin-top: 100px;
+    height: 350px;
+    background-color: aliceblue;
+    box-shadow: 1px 3px 15px 5px;
+    border-radius: 10px;
+
+}
+.child2{
+    border: 2px solid blue;
+    padding: 20px;
+    margin: 5px;
+    height: 430px;
+    background-color: aliceblue;
+    box-shadow: 1px 3px 15px 5px;
+    border-radius: 10px;
+
+
+}
+.child3{
+    border: 2px solid blue;
+    padding: 20px;
+    margin-top: 70px;
+    height: 350px;
+    background-color: aliceblue;
+    box-shadow: 1px 3px 15px 5px;
+    border-radius: 10px;
+
+
+}
+
+.butt{
+    padding: 10px;
+    margin-top: -55px;
+}
+.price>span{
+    font-size: 1rem;
+}
+.head{
+    color: gold;
+}
+.price{
+    color: blue;
+    font-size: 40px;
+}
+.em1{
+    font-size: 50px;
+}
+.em2{
+    font-size: 50px;
+}
+.em3{
+    font-size: 50px;
+}
