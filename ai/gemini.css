@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 60px 70px 940px 60px 60px 50px;
+    grid-template-rows: 50px 400px 50px;
+    grid-template-areas: 
+    "a b g d e f"
+    "a b g d e f"
+    "a b h d e f"
+    ;
+}
+.child{
+    background-color: gold;
+    border: 2px solid red;
+    text-align: center;
+    align-items: center;
+}
+.child1{
+    grid-area: a;
+}
+.child2{
+    grid-area: b;
+}
+
+.child4{
+    grid-area: d;
+}
+.child5{
+    grid-area: e;
+}
+.child6{
+    grid-area: f;
+}
+.child7{
+    grid-area: g;
+}
+.child8{
+    grid-area: h;
+}
+.child7{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid red;
+    padding: 50px;
+
+}
+input{
+  width: 700px;
+  height: 40px;
+  margin-top: 300px;
+  background-color: gold;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 2px 2px 3px 1px;
+}
+input::placeholder{
+padding-left: 15px;
+font-weight: bold;
+}
+.gemini{
+    background-color: gold;
+    border: none;
+}
