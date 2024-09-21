@@ -1,0 +1,122 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.parent{
+    display: grid;
+    gap: 5px;
+    width: 100vh;
+    grid-template-columns:  150px 100px 100px 100px 100px;
+    grid-template-rows: 50px 100px 200px;
+    grid-template-areas: 
+    "a b b b b"
+    "a c d e f"
+    "a g g g h"
+    ;
+}
+
+.child{
+    box-shadow: 2px 1px 1px 1px;
+    text-align: center;
+    border-radius: 10px;
+}
+.child1{
+    grid-area: a;
+}
+.child2{
+    grid-area: b;
+}
+.child3{
+    grid-area: c;
+}
+.child4{
+    grid-area: d;
+}
+.child5{
+    grid-area: e;
+}
+.child6{
+    grid-area: f;
+}
+.child7{
+    grid-area: g;
+    width: 260px;
+}
+.child8{
+    grid-area: h;
+    width: 150px;
+    margin-left: -50px;
+}
+.lab{
+    background-color: rgb(7, 7, 122);
+    color: white;
+    height: 360px;
+    text-align: left;
+}
+.Dashboard{
+    margin: 10px;
+}
+.Product{
+    margin: 10px;
+}
+.Order{
+    margin: 10px;
+}
+.Analytics{
+    margin: 10px;
+}
+.Stock{
+    margin: 10px;
+}
+.Total{
+    margin: 10px;
+}
+.Team{
+    margin: 10px;
+}
+.Messages{
+    margin: 10px;
+}
+.Favourites{
+    margin: 10px;
+}
+.Setting{
+    margin: 10px;
+}
+.Sign{
+    margin: 25px;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+.head{
+    margin-left: 25px;
+}
+
+input{
+    margin-top: 20px;
+}
+.btn1{
+    margin-left: 50px;
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px;
+    border: none;
+
+}
+input{
+    margin-left: 25px;
+    box-shadow: 1px 1px 1px 1px;
+    border: none;
+}
+.kid{
+    display: flex;
+    justify-content: space-around;
+}
+.btn2{
+    margin-top: 150px;
+    margin-left: -40px;
+    font-size: 10px;
+    padding: 2px;
+    background-color: rgb(7, 7, 122);
+    color: white;
+}
